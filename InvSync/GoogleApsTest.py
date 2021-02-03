@@ -8,7 +8,7 @@ pagename = 'TestSheet1'
 
 df_images = list_images('TestSheet1', update=True)
 df_images.to_excel('images.xlsx')
-# load_images(pagename, main_folder)
+load_images(pagename, main_folder)
 
 # получение главной таблицы
 main_df = get_df(pagename)
